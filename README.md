@@ -62,7 +62,7 @@ Download PyTorch [weights](https://drive.google.com/file/d/1tG2ZiJ4vkzLpkPHOs84P
 Then run the following command in the terminal:
 
 ```
-$ python base_deepnipple.py --mode seg --device gpu:0 --img_path 
+$ python base_deepnipple.py --mode seg --img_path PATH --show True
 ```
 
 # Performance
