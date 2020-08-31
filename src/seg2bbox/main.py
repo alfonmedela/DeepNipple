@@ -1,17 +1,22 @@
-from fastai.utils.mem import *
+'''
+SEG2BBOX
+alfonsomedela
+alfonmedela@gmail.com
+alfonsomedela.com
+'''
+
+import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 
 
-def seg2bbox(img, mask):
+def seg2bbox(img, mask, show, save):
 
     mask[mask != 0] = 1
 
     mask = mask * 255
     mask = mask[:, :, 0]
     mask = mask.astype(np.uint8)
-
-
-    print(img.shape, mask.shape, np.max(img), np.max(mask))
 
     cnts = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     cnts = cnts[0] if len(cnts) == 2 else cnts[1]
@@ -38,21 +43,22 @@ def seg2bbox(img, mask):
         cv2.rectangle(img, (x1, y1), (x2, y2),(36,255,12), 2, -1)
         blobs += 1
 
-    print('blobs/boobs:', blobs)
-    plt.imshow(img)
-    plt.show()
+    if show:
+        plt.imshow(img)
+        plt.show()
 
-    cv2.imwrite('seg2bbox.png', mask)
+    if save:
+        cv2.imwrite('seg2bbox.png', mask)
 
 
 
 
 if __name__ == '__main__':
 
-    image_path = '/Users/alfonsomedela/Desktop/Personal/datasets/TheNippleProject/1-Originals/base_model/test/images/0_33.jpg'
-    mask_path = '/Users/alfonsomedela/Desktop/Personal/datasets/TheNippleProject/1-Originals/base_model/test/labels/0_33.png'
+    image_path = 'PATH TO IMAGES'
+    mask_path = 'PATH TO MASK'
 
     img = cv2.imread(image_path)
     mask = cv2.imread(mask_path)
 
-    seg2bbox(img, mask)
+    seg2bbox(img, mask, show=True, save=False)
