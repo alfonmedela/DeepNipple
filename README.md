@@ -139,7 +139,7 @@ Detection has been reduced to the simple binary problem of finding if there is a
 </table>
 
 ## Advanced algorithm 🔒
-This algorithm is trained on 70% of the data, validated on 20% and tested on 10%. Is is still to be tested.
+This algorithm is trained on 70% of the data, validated on 20% and tested on 10%. Is is still to be tested. Results will be released soon.
 
 ### Segmentation
 
