@@ -10,9 +10,7 @@ import argparse
 
 parser = argparse.ArgumentParser(
     description='Training function')
-parser.add_argument('--device', type=int,
-                    help='path to a test image or folder of images',
-                    default=1)
+parser.add_argument('--device', type=int)
 parser.add_argument('--path', type=str, help='Path to dataset')
 
 parser.add_argument('--model_dir', type=str, default='models/')
