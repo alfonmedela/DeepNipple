@@ -31,7 +31,7 @@ I am sure that github's community can take the best from this repo, and inspire 
 <img src="utils/figures/figure_1.png" width="829" height="250" /> 
 
 
-The dataset will be released soon at my [personal website](http://alfonsomedela.com/).
+Dataset access [here](https://forms.gle/qdFYbevD1aDi7sGd7).
 
 ### Other datasets
 [*NTU-Nipple-v1*](https://github.com/matkowski-voy/The-Nipple-Areola-Complex-for-Criminal-Identification) dataset, used in [*The Nipple-Areola Complex for Criminal Identification*](https://arxiv.org/pdf/1905.11651.pdf), contains 2732 images from 428 different nipple-areola complexes (NAC) but they only provide a bounding box.
