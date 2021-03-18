@@ -7,7 +7,7 @@
 [![torch](https://img.shields.io/badge/torch-1.6.0-orange?style=plastic)](https://pytorch.org/)
 [![opencv](https://img.shields.io/badge/opencv-3.4.11-green?style=plastic)](https://opencv.org/)
 
-**DeepNipple** is an algorithm that detects the areola and nipple with very high precision. The core is a convolutional neural network that solves a typical AI segmentation problem. This novel dataset and algorithm are the state-of-the-art in nipple detection and can be used for real-world applications such as criminal identification.
+**[DeepNipple](https://alfonsomedela.com/deepnipple-dataset/)** is an algorithm that detects the areola and nipple with very high precision. The core is a convolutional neural network that solves a typical AI segmentation problem. This novel dataset and algorithm are the state-of-the-art in nipple detection and can be used for real-world applications such as criminal identification.
 
 I am sure that github's community can take the best from this repo, and inspire other creative tools.
 
@@ -24,8 +24,8 @@ I am sure that github's community can take the best from this repo, and inspire 
 
 **DeepNipple** innovates in nipple detection by rethinking the problem as a segmentation problem comprising of two categories: areola and nipple. It is also possible to extract the areola and nipple in a bounding box as if it was an object detection problem.
 
-## Dataset
-**DeepNipple** dataset is composed of 1,000 images of more than 200 subjects with their areola and nipple segmentation masks. The figure below shows an example of an image and its areola and nipple masks, which in the dataset come as a single mask with pixel value 0 for background, 1 for areola and 2 for nipple. The example is not an original image of the dataset to avoid problems with NSFW content.
+## [Dataset](https://alfonsomedela.com/deepnipple-dataset/)
+**[DeepNipple](https://alfonsomedela.com/deepnipple-dataset/)** dataset is composed of 1,000 images of more than 200 subjects with their areola and nipple segmentation masks. The figure below shows an example of an image and its areola and nipple masks, which in the dataset come as a single mask with pixel value 0 for background, 1 for areola and 2 for nipple. The example is not an original image of the dataset to avoid problems with NSFW content.
 
 
 <img src="utils/figures/figure_1.png" width="829" height="250" /> 
