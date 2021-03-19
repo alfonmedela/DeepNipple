@@ -256,7 +256,8 @@ There is not much research on this area. I will list some of the papers I found:
 There is an [Android App](https://www.reddit.com/r/computervision/comments/33n3st/nippler_android_app_for_nipple_detection_with/) that apparently uses object detection to locate nipples.
 
 # Donations
-
+BTC Wallet
+[<img src="utils/figures/logo_nipple.png" width="160" height="160" />](http://alfonsomedela.com/)
 
 # Contact
 [✉️](alfonmedela@gmail.com)  |
