@@ -257,7 +257,7 @@ There is an [Android App](https://www.reddit.com/r/computervision/comments/33n3s
 
 # Donations
 BTC Wallet //
-[<img src="utils/figures/logo_nipple.png" width="160" height="160" />](https://github.com/alfonmedela/DeepNipple/blob/master/utils/figures/BTC-wallet.png)
+[<img src="BTC-wallet.png" width="160" height="160" />](https://github.com/alfonmedela/DeepNipple/blob/master/utils/figures/BTC-wallet.png)
 
 # Contact
 [✉️](alfonmedela@gmail.com)  |
